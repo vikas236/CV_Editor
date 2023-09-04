@@ -1,0 +1,37 @@
+.download {
+  width: 65px;
+  height: 150px;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px -4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-family: sans-serif;
+}
+
+.download span {
+  width: 45px;
+  padding: 10px;
+  height: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.download span:hover,
+.download span.active {
+  border-radius: 10px;
+  background: #f3f4f6;
+  fill: #0e374e;
+  color: #0e374e;
+}
+
+.download svg {
+  width: 25px;
+}
